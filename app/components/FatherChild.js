@@ -23,11 +23,9 @@ handleNumbVotes(){
                         <div className="firstName">{this.props.firstName}</div>
                         <div className="lastName">{this.props.lastName}</div>
                         <div className="gender">{this.props.gender}</div>
+                         <img src={this.props.img} className="picimg"/>
                         <div className="countV">
-                            <a onClick={this.handleNumbVotes}>
-                              <img src={this.props.img} className="picimg"/>
-
-                            </a>
+                            <button  className="btnVotes" onClick={this.handleNumbVotes}>Age^^^</button>
                              {this.props.votes}
                         </div>
 

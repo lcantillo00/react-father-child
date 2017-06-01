@@ -1,5 +1,6 @@
 function numberVotes(){
-    return Math.floor((Math.random()*50)+15);
+    // return Math.floor((Math.random()*50)+15);
+    return 1;
 }
 
 const children=[
