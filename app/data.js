@@ -9,7 +9,7 @@ const children=[
         firstName:"First name: Lolo",
         lastName:"Last name: lulu",
         gender:"Gender: female",
-        img:'https://static-s.aa-cdn.net/img/gp/20600004409342/ExXIgVUk4jYcK7aGUv9U3op4E9avSiQjGcdvUXCNXqkf1MwXCGxuw5QsoCS2F9T3Tlc=w300?v=1',
+        img:'app/pics/child1.jpg',
         votes:numberVotes(),
         // toysNum:1
     },
